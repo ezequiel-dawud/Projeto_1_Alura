@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -28,7 +29,14 @@
         </section>
 
         <img class="apresentacao__ezequiel" src="imagens/ezequiel.jpeg" alt="Foto do Ezequiel Dawud">
+        <div id="instafeed"></div>
 
+<script type="text/javascript">
+    var feed = new Instafeed({
+      accessToken: 'IGQVJWNlJHS2pSU2J5TlFuX0JreHJvdlpmLVRrU1BMaEFYYVhJMnZAkX294QWVXbFhJVnowZAEdHb1BPbHV2MlJlNDFaaTQwVlZA4empiQXFweDVQY2pBNExka2lKMmdjOW1FRnZABSU9fMGZAZAQ2NyTDJOMQZDZD'
+    });
+    feed.run();
+</script>
 
 
     </main>
